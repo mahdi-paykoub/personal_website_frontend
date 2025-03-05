@@ -3,12 +3,17 @@
     /* azarmehr-font */
 }
 
+html {
+    height: 5000px;
+}
+
 :root {
     --bg-color: #ffffff;
     --text-color: #000000;
     --mian-text-color: #c8020c;
     --secondary-text-color: #494949;
     --dark-text-color: #373737;
+    --border-header-color: #c8020c
 }
 
 
@@ -66,7 +71,7 @@ body.dark-mode {
 }
 
 .header-font-size {
-    font-size: 45px;
+    font-size: 42px;
 }
 
 
@@ -78,10 +83,121 @@ body.dark-mode {
     font-size: 15px;
 }
 
-a {
-    text-decoration: none;
+.custom-btn-danger:hover {
+    color: white;
 }
 
-a:hover {
-    color: white;
+
+a {
+    all: unset;
+    cursor: pointer;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.object-fit-cover {
+    object-fit: cover;
+}
+
+.me-img-header {
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.me-img-header-parent img:not(:first-child) {
+    margin-right: -20px;
+    z-index: 1;
+    position: relative;
+}
+
+.fs11 {
+    font-size: 11px;
+}
+
+.fs12 {
+    font-size: 12px;
+}
+
+.fs13 {
+    font-size: 13px;
+}
+
+.fs14 {
+    font-size: 14px;
+}
+
+.fs15 {
+    font-size: 15px;
+}
+
+.fs17 {
+    font-size: 17px;
+}
+
+.fs18 {
+    font-size: 18px;
+}
+
+.fs19 {
+    font-size: 19px;
+}
+
+.back-circle {
+    border-radius: 50%;
+    position: absolute;
+    filter: blur(100px);
+    opacity: .3;
+    z-index: -1;
+
+}
+
+.back-circle-color-1 {
+    width: 80%;
+    height: 80%;
+    background-color: #ff4c4cb7;
+    top: -50px;
+    left: 0;
+}
+
+.back-circle-color-2 {
+    width: 80%;
+    height: 80%;
+    background-color: #ff9d4c8f;
+    bottom: -150px;
+    right: -50px;
+}
+
+.login-btn-header {
+    background: transparent;
+    border: 1px solid #c8020c;
+    padding: 7px 13px;
+    border-radius: 10px;
+    font-size: 13px;
+    color: #c8020c;
+}
+
+.main-menu ul {
+    display: flex;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.main-menu ul li {
+    margin-right: 20px;
+    font-size: 14px;
+}
+
+.main-menu ul li a {
+    color: #000000;
+}
+
+/* .main-menu ul li a.active {
+    font-weight: 700;
+    color: rgb(87, 87, 87);
+} */
+.border-header-bottom {
+    border-bottom: 2px solid #8700070f;
 }
