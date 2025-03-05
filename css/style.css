@@ -209,3 +209,6 @@ a {
 .border-header-bottom {
     border-bottom: 2px solid #8700070f;
 }
+.op-50{
+   filter: opacity(.4);
+}
