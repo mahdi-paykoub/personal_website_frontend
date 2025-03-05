@@ -1,0 +1,87 @@
+* {
+    font-family: 'azarmehr-font';
+    /* azarmehr-font */
+}
+
+:root {
+    --bg-color: #ffffff;
+    --text-color: #000000;
+    --mian-text-color: #c8020c;
+    --secondary-text-color: #494949;
+    --dark-text-color: #373737;
+}
+
+
+body {
+    /* #0e2338 */
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+/* @media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #0e2338;
+        --text-color: #ffffff;
+        --mian-text-color: #c8020c;
+    }
+}
+
+body.dark-mode {
+    --bg-color: #0e2338;
+    --text-color: #ffffff;
+} */
+
+
+
+.fw-300 {
+    font-weight: 300;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.text-main {
+    color: var(--mian-text-color);
+}
+
+.lh-2 {
+    line-height: 2;
+}
+
+.custom-text-secondary {
+    color: var(--secondary-text-color);
+}
+
+.dark-text-secondary {
+    color: var(--secondary-text-color);
+}
+
+.header-font-size {
+    font-size: 45px;
+}
+
+
+.custom-btn-danger {
+    background: #b8030f;
+    padding: 7px 26px;
+    color: #efefef;
+    border-radius: 11px;
+    font-size: 15px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
