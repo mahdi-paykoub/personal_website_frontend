@@ -38,6 +38,9 @@ body.dark-mode {
     --text-color: #ffffff;
 } */
 
+.custom-dark-color {
+    color: var(--dark-text-color);
+}
 
 .fw-10 {
     font-weight: 10;
@@ -76,6 +79,7 @@ body.dark-mode {
 .text-main {
     color: var(--mian-text-color);
 }
+
 .text-main-2 {
     color: var(--mian-text-color-2);
 }
@@ -167,6 +171,7 @@ a {
 .fs19 {
     font-size: 19px;
 }
+
 .fs20 {
     font-size: 20px;
 }
@@ -280,11 +285,31 @@ a {
     color: #c8020c;
 }
 
-.team-card{
+.team-card {
     border: 1px solid #ddd;
     border-radius: 30px;
 }
-.team-name{
+
+.team-name {
     border-top: 1px solid #ddd;
     border-radius: 30px;
+}
+
+.music-palyer-modal-content {
+    /* background: linear-gradient(to right , var(--mian-text-color-2) , var(--mian-text-color)); */
+    border-radius: 20px;
+}
+
+.music-palyer-modal-content img {
+    border-radius: 20px 20px 70px 20px ;
+}
+
+.music-float-icon {
+    background-color: #87b4a0;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    bottom: 0;
+    right: 0;
+    cursor: pointer;
 }
