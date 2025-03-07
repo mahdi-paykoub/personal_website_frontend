@@ -85,10 +85,34 @@ const swiper = new Swiper('.swiper', {
             slidesPerView: 1.8,
             spaceBetween: 20
         },
-      
+
         // when window width is >= 640px
         992: {
             slidesPerView: 5,
+            spaceBetween: 15
+        }
+    }
+})
+
+// swiper
+const swiper_tech = new Swiper('.swiper-tech', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    autoplay: {
+        delay: 0,
+        disableOnInteraction: false, 
+    },
+    speed: 6000, 
+    loop: true,
+    allowTouchMove: false,
+
+    breakpoints: {
+        320: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        },
+        992: {
+            slidesPerView: 7,
             spaceBetween: 15
         }
     }

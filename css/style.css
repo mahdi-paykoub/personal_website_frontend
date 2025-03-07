@@ -378,7 +378,7 @@ a {
 .play-icon-podcast {
     width: 35px;
     height: 35px;
-   
+
 }
 
 .play-icon-podcast svg {
@@ -386,9 +386,55 @@ a {
 }
 
 .podcast-bg {
-    background: linear-gradient(to bottom ,#fdefe6 ,#ffffff);
+    background: linear-gradient(to bottom, #fdefe6, #ffffff);
 }
-.podcast-cover-model{
+
+.podcast-cover-model {
     height: 296px;
     object-fit: cover;
+}
+
+.second-title {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.teach-card {
+    border-radius: 20px;
+    background-color: #f1f2f3;
+    cursor: pointer;
+}
+
+
+.blure-cover {
+    height: 100%;
+    width: 20px;
+    top: 0;
+    z-index: 1;
+    filter: blur(5px);
+    background: #ffffff;
+}
+
+.righ-t {
+    right: 0;
+}
+
+.lef-t {
+    left: 0;
+}
+
+.back-glog-img::after {
+    margin-top: 30px;
+    z-index: -1;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+    content: "";
+    height: 100%;
+    width: 100%;
+    background: url(../image/globe.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(50%, -50%);
 }
