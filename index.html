@@ -129,12 +129,19 @@
                 <div class="text-center">
                     <div class="position-relative">
                         <img src="image/santa-claus (1).jpg" width="100%" alt="">
-                        <div
+                        <div id="playPauseBtn"
                             class="position-absolute music-float-icon d-flex justify-content-center align-items-center">
-                            <svg class="text-white" stroke="currentColor" fill="currentColor" stroke-width="0"
+                            <svg class="text-white" id="playIcon" stroke="currentColor" fill="currentColor" stroke-width="0"
                                 viewBox="0 0 16 16" height="30" width="30" xmlns="http://www.w3.org/2000/svg">
                                 <path
                                     d="m11.596 8.697-6.363 3.692c-.54.313-1.233-.066-1.233-.697V4.308c0-.63.692-1.01 1.233-.696l6.363 3.692a.802.802 0 0 1 0 1.393">
+                                </path>
+                            </svg>
+                            <svg stroke="currentColor" id="pauseIcon" class="custome-d-none text-white" fill="currentColor"
+                                stroke-width="0" version="1.2" baseProfile="tiny" viewBox="0 0 24 24" height="30"
+                                width="30" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M8 6c-1.104 0-2 .896-2 2v8c0 1.104.896 2 2 2s2-.896 2-2v-8c0-1.104-.896-2-2-2zM15 6c-1.104 0-2 .896-2 2v8c0 1.104.896 2 2 2s2-.896 2-2v-8c0-1.104-.896-2-2-2z">
                                 </path>
                             </svg>
                         </div>
@@ -147,10 +154,16 @@
                     </div>
 
                     <div class="mt-3">
-                        <audio id="musicPlayer" controls class="w-100"  preload="none">
-                            <source src="audio/Amin Bani - Darigh (128).mp3" type="audio/mpeg">
-                            مرورگر شما از پخش موزیک پشتیبانی نمی‌کند.
-                        </audio>
+                        <div class="music-player">
+                            <div class="progress-container" dir="ltr">
+                                <div id="progressBar" class="progress-bar"></div>
+                            </div>
+                            <div class="d-flex justify-content-between mt-2 fs12 text-secondary">
+                                <div id="currentTime">0:00</div> <div id="duration">0:00</div>
+                            </div>
+                            <audio id="audio" src="audio/Amin Bani - Darigh (128).mp3"></audio>
+                        </div>
+
                     </div>
                 </div>
             </div>
