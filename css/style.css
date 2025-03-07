@@ -1,7 +1,7 @@
 * {
-    font-family: 'dana';
-    /* azarmehr-font */
-    /* azarmehr-font */
+    font-family: 'yekan_bakh';
+    /* dana */
+    /* yekan_bakh */
 }
 
 html {
@@ -42,38 +42,27 @@ body.dark-mode {
     color: var(--dark-text-color);
 }
 
-.fw-10 {
-    font-weight: 10;
-}
 
 .fw-100 {
     font-weight: 100;
 }
 
-.fw-200 {
-    font-weight: 200;
-}
-
-.fw-300 {
-    font-weight: 300;
-}
 
 
-
-.fw-500 {
-    font-weight: 500;
+.fw-400 {
+    font-weight: 400;
 }
 
 .fw-600 {
     font-weight: 600;
 }
 
-.fw-800 {
-    font-weight: 800;
+.fw-700 {
+    font-weight: 700;
 }
 
-.fw-900 {
-    font-weight: 900;
+.fw-800 {
+    font-weight: 800;
 }
 
 .text-main {
@@ -98,9 +87,7 @@ body.dark-mode {
     color: var(--secondary-text-color);
 }
 
-/* .header-font-size {
-    font-size: 42px;
-} */
+
 
 
 .custom-btn-danger {

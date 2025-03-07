@@ -1,0 +1,36 @@
+@font-face {
+	font-family: yekan_bakh;
+	font-style: normal;
+	font-weight: 100;
+	src: url('../fonts/Yekan-Bakh-FaNum-04-Regular8f54.ttf') format('ttf'),
+		 url('../fonts/Yekan-Bakh-FaNum-04-Regular9d95.woff') format('woff');
+}
+
+@font-face {
+	font-family: yekan_bakh;
+	font-style: normal;
+	font-weight: 400;
+	src: url('../fonts/Yekan-Bakh-FaNum-05-Medium0f18.ttf') format('ttf'),
+		 url('../fonts/Yekan-Bakh-FaNum-05-Mediumab41.woff') format('woff');
+}
+@font-face {
+	font-family: yekan_bakh;
+	font-style: normal;
+	font-weight: 600;
+	src: url('../fonts/Yekan-Bakh-FaNum-06-Bold37fc.eot') format('eot'),
+		 url('../fonts/Yekan-Bakh-FaNum-06-Boldd356.woff') format('woff');
+}
+@font-face {
+	font-family: yekan_bakh;
+	font-style: normal;
+	font-weight: 700;
+	src: url('../fonts/Yekan-Bakh-FaNum-07-Heavy0277.eot') format('eot'),
+		 url('../fonts/Yekan-Bakh-FaNum-07-Heavyd6c9.woff') format('woff');
+}
+@font-face {
+	font-family: yekan_bakh;
+	font-style: normal;
+	font-weight: 800;
+	src: url('../fonts/Yekan-Bakh-FaNum-08-Fat388d.eot') format('eot'),
+		 url('../fonts/Yekan-Bakh-FaNum-08-Fat5ea2.woff') format('woff');
+}
