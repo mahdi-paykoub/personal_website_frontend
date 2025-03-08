@@ -446,7 +446,7 @@ a {
     background-color: #f3f3f3;
     border-radius: 40px 40px 50px 50px;
     box-shadow: 0px 3px 7px #c5c5c58c;
-    
+
 }
 
 .road-box:hover svg,
@@ -464,4 +464,26 @@ a {
 
 .step-top-svg {
     top: -50px;
+}
+
+.testimonial-box {
+    border-radius: 20px;
+    background-color: rgb(243 243 243);
+}
+
+.bg-image {
+  background-color: #fdefe6;
+}
+
+.testimonial-box .main-image {
+    border-radius: 20px;
+    filter: brightness(0.5) blur(0.5px);
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.lh-1-8 {
+    line-height: 1.8;
 }
