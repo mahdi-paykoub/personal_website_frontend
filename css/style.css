@@ -269,7 +269,7 @@ a {
 }
 
 .txt-on-hover-color:hover {
-    color: #c8020c;
+    color: var(--mian-text-color-2) !important;
 }
 
 .team-card {
@@ -437,4 +437,31 @@ a {
     background-repeat: no-repeat;
     background-position: center;
     transform: translate(50%, -50%);
+}
+
+
+.road-box {
+    width: 100px;
+    height: 100px;
+    background-color: #f3f3f3;
+    border-radius: 40px 40px 50px 50px;
+    box-shadow: 0px 3px 7px #c5c5c58c;
+    
+}
+
+.road-box:hover svg,
+.road-box:hover+div {
+    color: var(--mian-text-color-2) !important;
+    transition: .2s all;
+}
+
+.step-svg {
+    bottom: -50px;
+    width: 70px;
+    right: 100px;
+    z-index: 1;
+}
+
+.step-top-svg {
+    top: -50px;
 }

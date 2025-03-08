@@ -117,3 +117,28 @@ const swiper_tech = new Swiper('.swiper-tech', {
         }
     }
 })
+
+
+// swiper
+const swiper_register_road = new Swiper('.swiper_register_road', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    autoplay: {
+        delay: 0,
+        disableOnInteraction: false, 
+    },
+    speed: 6000, 
+    loop: true,
+    allowTouchMove: false,
+
+    breakpoints: {
+        320: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        },
+        992: {
+            slidesPerView: 6,
+            spaceBetween: 70
+        }
+    }
+})
