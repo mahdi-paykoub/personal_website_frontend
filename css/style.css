@@ -472,7 +472,7 @@ a {
 }
 
 .bg-image {
-  background-color: #fdefe6;
+    background-color: #fdefe6;
 }
 
 .testimonial-box .main-image {
@@ -486,4 +486,17 @@ a {
 
 .lh-1-8 {
     line-height: 1.8;
+}
+
+.bg-instagram {
+    background: linear-gradient(45deg, #d5374d, #d73144);
+    border-radius: 30px;
+}
+
+.btn-instagram-link {
+    background: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 14px;
 }
