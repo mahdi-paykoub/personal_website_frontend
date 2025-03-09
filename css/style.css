@@ -489,7 +489,9 @@ a {
 }
 
 .bg-instagram {
-    background: linear-gradient(45deg, #d5374d, #d73144);
+    background: url(../image/linear-pattern-1.png), linear-gradient(45deg, #d5374d, #d73144);
+    /*  url(../image/linear-pattern-1.png),  */
+    background-position: right;
     border-radius: 30px;
 }
 
