@@ -5,7 +5,7 @@
 }
 
 html {
-    height: 5000px;
+    height: 10000px;
 }
 
 :root {
@@ -161,6 +161,26 @@ a {
 
 .fs20 {
     font-size: 20px;
+}
+
+.fs22 {
+    font-size: 22px;
+}
+
+.fs25 {
+    font-size: 25px;
+}
+
+.fs30 {
+    font-size: 30px;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.br-5 {
+    border-radius: 5px;
 }
 
 .back-circle {
@@ -519,11 +539,40 @@ a {
 
 .w-parent-plugin {
     background-color: #d63347;
-    border-radius: 10px;  
+    border-radius: 10px;
     padding: 32px;
 }
-.w-parent-theme{
+
+.w-parent-theme {
     background-color: #d63347;
     border-radius: 10px;
     padding: 32px;
+}
+
+.step-border {
+    background: linear-gradient(rgba(255, 255, 255, 0) 10%, #d63347 100%);
+    z-index: -1;
+    width: 2px;
+    height: 120px;
+    position: absolute;
+    left: 50%;
+    top: -80px;
+    transform: translateX(-50%);
+}
+
+.num-box {
+    background: #d63347;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+}
+
+.sticker-package {
+    top: 25px;
+    left: -35px;
+    background-color: #d63347;
+    padding: 5px 30px;
+    transform: rotate(314deg);
+    box-shadow: 0 0 5px rgb(0 0 0 / 30%);
+    width: 145px;
 }
