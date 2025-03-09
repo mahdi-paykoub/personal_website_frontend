@@ -502,3 +502,28 @@ a {
     border-radius: 10px;
     font-size: 14px;
 }
+
+.package-box {
+    background: rgb(245, 245, 245);
+    border-radius: 30px;
+}
+
+.wordpress-package-box {
+    border-radius: 20px;
+    background-color: rgb(243 243 243);
+}
+
+.wordpress-package-box img {
+    border-radius: 10px;
+}
+
+.w-parent-plugin {
+    background-color: #d63347;
+    border-radius: 10px;  
+    padding: 32px;
+}
+.w-parent-theme{
+    background-color: #d63347;
+    border-radius: 10px;
+    padding: 32px;
+}
