@@ -283,9 +283,8 @@ a {
 
 .main-title-txt {
     font-size: 1.5rem;
-    line-height: 2.375rem;
+    line-height: 2rem;
     color: rgb(17 24 39);
-    font-weight: 700;
 }
 
 .txt-on-hover-color:hover {
@@ -575,4 +574,43 @@ a {
     transform: rotate(314deg);
     box-shadow: 0 0 5px rgb(0 0 0 / 30%);
     width: 145px;
+}
+
+.laravel-sercvice-box {
+    border: 1px solid rgb(224, 224, 224);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px lightgrey;
+}
+
+.text-gradian {
+    background-image: linear-gradient(90deg, #e47628, #b1010a);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.laravel-service-btn {
+    background: linear-gradient(45deg, #d47a3a, #d63347);
+    color: white;
+    border: none;
+    padding: 10px 40px;
+    border-radius: 30px;
+    font-size: 14px;
+}
+
+.bg-red-cu {
+    background: #ffebebd9;
+}
+
+.rotate-180 {
+    transform: rotate(180deg);
+}
+.lr-ser-lr{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    border: 1px solid #972230;
 }

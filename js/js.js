@@ -100,9 +100,9 @@ const swiper_tech = new Swiper('.swiper-tech', {
     spaceBetween: 10,
     autoplay: {
         delay: 0,
-        disableOnInteraction: false, 
+        disableOnInteraction: false,
     },
-    speed: 6000, 
+    speed: 6000,
     loop: true,
     allowTouchMove: false,
 
@@ -125,9 +125,9 @@ const swiper_register_road = new Swiper('.swiper_register_road', {
     spaceBetween: 10,
     autoplay: {
         delay: 0,
-        disableOnInteraction: false, 
+        disableOnInteraction: false,
     },
-    speed: 6000, 
+    speed: 6000,
     loop: true,
     allowTouchMove: false,
 
@@ -141,4 +141,30 @@ const swiper_register_road = new Swiper('.swiper_register_road', {
             spaceBetween: 70
         }
     }
+})
+
+// swiper
+const laravel_service_swiper = new Swiper('.laravel-service-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    // autoplay: {
+    //     delay: 4000,
+    //     disableOnInteraction: false,
+    // },
+    // speed: 1000,
+    loop: true,
+    breakpoints: {
+        320: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        },
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 30
+        }
+    },
+    navigation: {
+        nextEl: '.custom-next',
+        prevEl: '.custom-prev',
+    },
 })
