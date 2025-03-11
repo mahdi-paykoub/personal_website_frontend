@@ -614,3 +614,13 @@ a {
     border-radius: 50%;
     border: 1px solid #972230;
 }
+.cons-box{
+    background-color: #d73144;
+    border-radius: 30px;
+}
+.bg-cons{
+    background: url(../image/linear-pattern-1.png), linear-gradient(45deg, #df8643, #d73144 60%);
+}
+.custom-white-color{
+    color: #ebebeb !important;
+}
