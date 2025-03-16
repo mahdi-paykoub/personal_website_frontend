@@ -168,3 +168,8 @@ const laravel_service_swiper = new Swiper('.laravel-service-swiper', {
         prevEl: '.custom-prev',
     },
 })
+
+const swiperCard = new Swiper('.swiperCard', {
+    effect: "cards",
+    initialSlide: 2
+  });

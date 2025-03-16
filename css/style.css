@@ -4,9 +4,6 @@
     /* yekan_bakh */
 }
 
-html {
-    height: 10000px;
-}
 
 :root {
     --bg-color: #ffffff;
@@ -132,7 +129,7 @@ a {
 }
 
 .fs12 {
-    font-size: 12px;
+    font-size: 12px !important;
 }
 
 .fs13 {
@@ -605,7 +602,8 @@ a {
 .rotate-180 {
     transform: rotate(180deg);
 }
-.lr-ser-lr{
+
+.lr-ser-lr {
     width: 45px;
     height: 45px;
     display: flex;
@@ -614,13 +612,100 @@ a {
     border-radius: 50%;
     border: 1px solid #972230;
 }
-.cons-box{
+
+.cons-box {
     background-color: #d73144;
     border-radius: 30px;
 }
-.bg-cons{
+
+.bg-cons {
     background: url(../image/linear-pattern-1.png), linear-gradient(45deg, #df8643, #d73144 60%);
 }
-.custom-white-color{
+
+.custom-white-color {
     color: #ebebeb !important;
+}
+
+
+
+
+/* card swiper */
+
+
+.swiperCard.swiper {
+    width: 300px;
+    height: 500px;
+}
+
+.swiperCard .swiper-slide {
+    border-radius: 20px;
+    border: 1px solid rgb(221, 221, 221);
+}
+
+.border-simples {
+    width: 50%;
+    height: 3px;
+    background-color: #d9d9d9;
+    border-radius: 30px;
+}
+
+.more-btn {
+    border: none;
+    background: #d9d9d9;
+    font-size: 14px;
+    padding: 10px 25px;
+    border-radius: 10px;
+    color: #525252;
+}
+
+.simple-cover {
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 100;
+    background: #121212a6;
+    filter: blur(1);
+    opacity: 0 !important;
+}
+
+.swiperCard img:hover+.simple-cover {
+    opacity: 1 !important;
+    transition: .3s all;
+}
+
+footer {
+    margin-top: 100px;
+    background-color: #f3f4f6;
+    /* color: #f3f4f6; */
+}
+
+.social-icon-box {
+    width: 45px;
+    height: 45px;
+    background-color: #d4d4d4;
+    border-radius: 50%;
+}
+
+.social-icon-box:hover {
+    background: #d73347;
+}
+
+.border-foo-bottom {
+    border-bottom: 1px solid #ececec;
+}
+
+footer ul li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+footer .copyright {
+    padding: 15px;
+    background-color: #e6e7e9
+}
+
+footer .copyright svg {
+    color: #919191;
 }
