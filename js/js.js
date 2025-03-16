@@ -172,4 +172,17 @@ const laravel_service_swiper = new Swiper('.laravel-service-swiper', {
 const swiperCard = new Swiper('.swiperCard', {
     effect: "cards",
     initialSlide: 2
-  });
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+    const textElement = document.getElementById("text");
+    const button = document.getElementById("toggleBtn");
+    let isExpanded = false;
+
+    button.addEventListener("click", () => {
+        isExpanded = !isExpanded;
+        textElement.classList.toggle("expanded", isExpanded);
+        textElement.classList.toggle("fade-text", !isExpanded);
+        button.textContent = isExpanded ? "نمایش کمتر" : "نمایش بیشتر";
+    });
+});

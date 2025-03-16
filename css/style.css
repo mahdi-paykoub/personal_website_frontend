@@ -639,7 +639,7 @@ a {
 
 .swiperCard .swiper-slide {
     border-radius: 20px;
-    border: 1px solid rgb(221, 221, 221);
+    /* border: 1px solid rgb(221, 221, 221); */
 }
 
 .border-simples {
@@ -708,4 +708,30 @@ footer .copyright {
 
 footer .copyright svg {
     color: #919191;
+}
+
+
+#text {
+    height: 180px;
+    overflow: hidden;
+    transition: height 0.5s ease-in-out;
+
+}
+
+.fade-text {
+    position: relative;
+    overflow: hidden;
+    height: 90px;
+    transition: height 0.5s ease-in-out;
+    mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0));
+    -webkit-mask-image: linear-gradient(to bottom, rgba(0, 0, 0, 1) 40%, rgba(0, 0, 0, 0));
+
+}
+
+.expanded {
+    height: fit-content !important;
+}
+
+.description-box h2 {
+    color: var(--dark-text-color);
 }
