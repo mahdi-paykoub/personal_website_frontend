@@ -403,6 +403,7 @@ a {
 
 .podcast-bg {
     background: linear-gradient(to bottom, #fdefe6, #ffffff);
+    /* background: #fdefe6; */
 }
 
 .podcast-cover-model {
@@ -644,10 +645,22 @@ a {
 
 .border-simples {
     width: 50%;
-    height: 3px;
+    height: 4px;
     background-color: #d9d9d9;
     border-radius: 30px;
 }
+
+.shape-1 {
+    top: -86px;
+    right: 0;
+}
+
+.shape-2 {
+    top: 0;
+    right: 50%;
+}
+
+
 
 .more-btn {
     border: none;
@@ -678,6 +691,7 @@ a {
 footer {
     margin-top: 100px;
     background-color: #f3f4f6;
+    border-radius: 60px 60px 0 0;
     /* color: #f3f4f6; */
 }
 
@@ -695,7 +709,9 @@ footer {
 .border-foo-bottom {
     border-bottom: 1px solid #ececec;
 }
-
+.swiper-3d .swiper-slide-shadow {
+    background: rgb(0 0 0 / 0%);
+}
 footer ul li {
     list-style: none;
     margin-top: 15px;
@@ -734,4 +750,27 @@ footer .copyright svg {
 
 .description-box h2 {
     color: var(--dark-text-color);
+}
+
+.card-img-back {
+    position: absolute;
+    left: 30px;
+    top: -21px;
+}
+
+.blog-card img {
+    border-radius: 5px;
+
+}
+
+.blog-card {
+    background-color: #f3f4f6;
+    border-radius: 5px;
+
+}
+
+.more-blog{
+    background: #e7e9ef;
+  border-radius: 10px;
+    padding: 10px 33px;
 }
