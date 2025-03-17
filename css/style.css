@@ -709,9 +709,7 @@ footer {
 .border-foo-bottom {
     border-bottom: 1px solid #ececec;
 }
-.swiper-3d .swiper-slide-shadow {
-    background: rgb(0 0 0 / 0%);
-}
+
 footer ul li {
     list-style: none;
     margin-top: 15px;
@@ -759,13 +757,14 @@ footer .copyright svg {
 }
 
 .blog-card img {
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0 5px 5px #e3e3e3;
 
 }
 
 .blog-card {
     background-color: #f3f4f6;
-    border-radius: 5px;
+    border-radius: 10px;
 
 }
 
