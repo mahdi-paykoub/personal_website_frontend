@@ -624,7 +624,7 @@ a {
 }
 
 .custom-white-color {
-    color: #ebebeb !important;
+    color: #e4e4e4 !important;
 }
 
 
@@ -768,8 +768,43 @@ footer .copyright svg {
 
 }
 
-.more-blog{
+.more-blog {
     background: #e7e9ef;
-  border-radius: 10px;
+    border-radius: 10px;
     padding: 10px 33px;
+}
+
+
+/* login */
+.login-intro {
+    background: url(../image/noise.png), linear-gradient(45deg, #df8643, #d73144 60%);
+    height: 100vh;
+}
+
+
+.login-logo-img-back {
+    width: 110px;
+    height: 110px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.login-input {
+    width: 98%;
+    height: 45px;
+    border-radius: 25px;
+    border: 1px solid #dfdfdf;
+}
+
+input:focus {
+    outline: none;
+}
+
+.login-usefull-links ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+
+.login-usefull-links a:hover {
+    color: white;
 }
