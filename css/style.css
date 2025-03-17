@@ -4,6 +4,7 @@
     /* yekan_bakh */
 }
 
+/* #d73246 */
 
 :root {
     --bg-color: #ffffff;
@@ -16,7 +17,6 @@
     /* new color */
     --main-red-color: #d10c37;
     --main-red-color-dark: #bd0b31;
-    --mian-yellow-colo: #ffc64b;
 }
 
 
@@ -272,32 +272,27 @@ a {
     background-size: contain;
 }
 
-.sub-title-txt::after {
-    content: " ";
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    display: block;
-    height: 10px;
-    width: calc(100% + 6px);
-    background-color: #c8020c6b;
-    -webkit-clip-path: polygon(6px 0, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(6px 0, 100% 0, 100% 100%, 0 100%);
-    z-index: -1;
+.castbox {
+    border-radius: 20px 20px 70px 70px;
+    height: 270px;
+    background: url(../image/linear-pattern-1.png), #d73144;
+    background-position: right;
 }
 
-.sub-title-txt {
-    font-size: 1.125rem;
-    line-height: 1.875rem;
-    width: fit-content;
+.more-podcast-btn {
+    background: #ffae00;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    color: white;
 }
 
-.main-title-txt {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    color: rgb(17 24 39);
+.simple-w {
+    background: #ffebee;
+    border-radius: 20px;
 }
+
+
 
 .txt-on-hover-color:hover {
     color: var(--mian-text-color-2) !important;
@@ -390,7 +385,7 @@ a {
 .podcast-img {
     border-radius: 30px;
     filter: brightness(0.8);
-    box-shadow: 0px 8px 10px #dddddd;
+    box-shadow: 0px 8px 10px #5252524d;
     max-height: 200px;
 }
 
@@ -504,7 +499,7 @@ a {
 }
 
 .bg-image {
-    background-color: #fdefe6;
+    background-color: #ffebee;
 }
 
 .testimonial-box .main-image {
@@ -635,7 +630,7 @@ a {
 }
 
 .bg-cons {
-    background: url(../image/linear-pattern-1.png), linear-gradient(45deg, #df8643, #d73144 60%);
+    background: url(../image/linear-pattern-1.png), linear-gradient(45deg, #df8643, #d10c37 60%);
 }
 
 .custom-white-color {
@@ -661,7 +656,7 @@ a {
 .border-simples {
     width: 50%;
     height: 4px;
-    background-color: #d9d9d9;
+    background-color: #cacaca;
     border-radius: 30px;
 }
 
@@ -679,7 +674,7 @@ a {
 
 .more-btn {
     border: none;
-    background: #d9d9d9;
+    background: #303841;
     font-size: 14px;
     padding: 10px 25px;
     border-radius: 10px;
@@ -793,6 +788,7 @@ footer .copyright svg {
 /* login */
 .login-intro {
     background: url(../image/auth-bg.jpg);
+    /* background:url(../image/noise.png),#d73246; */
     width: 100%;
     /* url(../image/noise.png), */
     background-size: cover;
