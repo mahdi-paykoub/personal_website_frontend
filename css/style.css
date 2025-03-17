@@ -495,11 +495,11 @@ a {
 
 .testimonial-box {
     border-radius: 20px;
-    background-color: rgb(243 243 243);
+    background-color: rgb(243 244 246);
 }
 
 .bg-image {
-    background-color: #ffebee;
+    background-color: #fff0f2;
 }
 
 .testimonial-box .main-image {
@@ -607,7 +607,7 @@ a {
 }
 
 .bg-red-cu {
-    background: #ffebebd9;
+    background: #ffebee;
 }
 
 .rotate-180 {
@@ -630,7 +630,7 @@ a {
 }
 
 .bg-cons {
-    background: url(../image/linear-pattern-1.png), linear-gradient(45deg, #df8643, #d10c37 60%);
+    background: url(../image/linear-pattern-1.png), linear-gradient(45deg, #df8643, #dd1c46 60%);
 }
 
 .custom-white-color {
