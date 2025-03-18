@@ -187,6 +187,10 @@ a {
     font-size: 30px;
 }
 
+.fs40 {
+    font-size: 40px;
+}
+
 .br-10 {
     border-radius: 10px;
 }
@@ -860,10 +864,10 @@ input:focus {
 }
 
 .border-bottom {
-    border-bottom: 1px solid #e6e8eb!important;
+    border-bottom: 1px solid #e6e8eb !important;
 }
 
-.short-link-box input{
+.short-link-box input {
     border-radius: 20px;
     border: 1px solid #e7e7e7;
     background: #ffffff;
@@ -871,13 +875,228 @@ input:focus {
     font-size: 14px;
     direction: ltr;
 }
-.short-link-box .position-absolute{
+
+.short-link-box .position-absolute {
     top: 4px;
     left: 7px;
 }
 
-.single-blog-img-box img{
+.single-blog-img-box img {
     /* max-height: 250px; */
 }
 
 /* blog single */
+.second-landing {
+    height: 320px;
+    background-color: #f3f4f8;
+    width: 100%;
+    overflow: hidden;
+}
+
+.bg-shadow-circle {
+    width: 400px;
+    height: 250px;
+    filter: blur(220px);
+    opacity: 0.3;
+    z-index: 0;
+
+}
+
+.bg-shadow-circle-1 {
+    background: linear-gradient(90deg, rgba(164, 68, 253, 1) 0%, rgba(208, 94, 252, 1) 100%);
+    top: 0;
+    right: 20%;
+}
+
+.bg-shadow-circle-2 {
+    background-color: rgb(254, 115, 2);
+    left: 20%;
+    bottom: 0;
+}
+
+.single-blog-breadcrumb {
+    background-color: #d10c37;
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+
+.float-img img:first-child {
+    top: 30px;
+}
+
+.float-img img:nth-child(2) {
+    top: 40px;
+    right: 30%;
+}
+
+.float-img img:nth-child(3) {
+    top: 80px;
+    right: 60%;
+}
+
+.float-img img:nth-child(4) {
+    top: 50px;
+    left: 25%;
+}
+
+.float-img img:nth-child(5) {
+    top: 70px;
+    left: 5%;
+}
+
+.float-img img:nth-child(6) {
+    bottom: 80px;
+    left: 5%;
+}
+
+.float-img img:nth-child(7) {
+    bottom: 50px;
+    left: 25%;
+}
+
+.float-img img:nth-child(8) {
+    bottom: 25px;
+    left: 45%;
+}
+
+.float-img img:nth-child(9) {
+    bottom: 50px;
+    right: 35%;
+}
+
+.float-img img:nth-child(10) {
+    bottom: 100px;
+    right: 20%;
+}
+
+.float-img img:nth-child(11) {
+    bottom: 70px;
+    right: 5%;
+}
+
+.float-img img:nth-child(12) {
+    bottom: 130px;
+    right: 30%;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes scaleAnimation {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.4);
+    }
+}
+
+@keyframes moveSide {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(10px);
+    }
+}
+
+.rotate-anim {
+    animation: rotate 2s linear infinite;
+}
+
+.scaleAnimation-anim {
+    animation: scaleAnimation 1.5s infinite alternate ease-in-out;
+}
+
+.moveSide-anim {
+    animation: moveSide 1.5s infinite alternate ease-in-out;
+}
+
+.blog-detail img {
+    max-height: 450px;
+}
+
+.blog-content-detail h1 {
+    color: var(--dark-text-color);
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.blog-content-detail h2 {
+    color: var(--dark-text-color);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.blog-content-detail p {
+    line-height: 2;
+}
+
+.blog-quote-box {
+    background-color: #f3f4f6;
+    /* border-radius: 20px; */
+}
+
+.blog-serach-inp {
+    width: 100%;
+    height: 40px;
+    border: 0;
+    background: transparent;
+}
+
+.search-b-icon {
+    left: 8px;
+    top: 8px;
+    width: 40px;
+    height: 40px;
+    background: #d10c37;
+    border-radius: 5px;
+}
+
+.blog-cats-side ul{
+   padding: 0;
+}
+
+.blog-cats-side ul li {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.blog-cats-side ul li a:hover {
+    color: var(--mian-text-color);
+}
+
+
+/* media */
+@media only screen and (min-width: 576px) {}
+
+@media only screen and (min-width: 768px) {}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {
+    .max-width-container {
+        max-width: 1200px;
+    }
+}
+
+@media only screen and (min-width: 1280px) {
+    .max-width-container {
+        max-width: 1280px;
+    }
+}
+
+@media only screen and (min-width: 1400px) {
+    .max-width-container {
+        max-width: 1400px;
+    }
+}
