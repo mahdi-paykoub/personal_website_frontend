@@ -247,6 +247,7 @@ a {
 .main-menu ul li {
     margin-right: 20px;
     font-size: 14px;
+    position: relative;
 }
 
 .main-menu ul li a {
@@ -288,8 +289,9 @@ a {
 }
 
 .simple-w {
-    background: #ffebee;
-    border-radius: 20px;
+    /* box-shadow: 0px 0px 7px #dddddd; */
+    background: #f3f4f6;
+    border-radius: 30px;
 }
 
 
@@ -428,7 +430,7 @@ a {
 
 .teach-card {
     border-radius: 20px;
-    background-color: #f1f2f3;
+    background-color: #f3f4f6;
     cursor: pointer;
 }
 
@@ -537,7 +539,7 @@ a {
 
 .wordpress-package-box {
     border-radius: 20px;
-    background-color: rgb(243 243 243);
+    background-color: #f3f4f6;
 }
 
 .wordpress-package-box img {
@@ -638,11 +640,7 @@ a {
 }
 
 
-
-
 /* card swiper */
-
-
 .swiperCard.swiper {
     width: 300px;
     height: 500px;
@@ -701,7 +699,7 @@ a {
 footer {
     margin-top: 100px;
     background-color: #f3f4f6;
-    border-radius: 60px 60px 0 0;
+    /* border-radius: 60px 60px 0 0; */
     /* color: #f3f4f6; */
 }
 
@@ -788,20 +786,15 @@ footer .copyright svg {
 /* login */
 .login-intro {
     background: url(../image/auth-bg.jpg);
-    /* background:url(../image/noise.png),#d73246; */
     width: 100%;
-    /* url(../image/noise.png), */
     background-size: cover;
     height: 100vh;
 }
 
 
 .login-logo-img-back {
-
     width: 250px;
     height: 250px;
-    /* background-color: #ffe1e4; */
-    /* background-color: #ffc9cf; */
     background-color: #ffb6be;
     border-radius: 50%;
 }
@@ -830,3 +823,61 @@ input:focus {
 .login-usefull-links a:hover {
     color: white;
 }
+
+.inner-banner {
+    position: relative;
+    background-color: #f3f4f8;
+    height: fit-content;
+    max-height: 500px;
+}
+
+.bg-shape-1 {
+    background: linear-gradient(90deg, rgba(164, 68, 253, 1) 0%, rgba(208, 94, 252, 1) 100%);
+    width: 400px;
+    height: 400px;
+    top: -150px;
+    right: 20%;
+    filter: blur(200px);
+    opacity: .2;
+}
+
+.bg-shape-2 {
+    background-color: rgb(254 129 2 / 30%);
+    width: 400px;
+    height: 350px;
+    bottom: -150px;
+    left: 20%;
+    filter: blur(200px);
+    opacity: .3;
+}
+
+
+.cat-box {
+    width: fit-content;
+    background: #d21942;
+    padding: 4px 16px;
+    border-radius: 7px;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e6e8eb!important;
+}
+
+.short-link-box input{
+    border-radius: 20px;
+    border: 1px solid #e7e7e7;
+    background: #ffffff;
+    padding: 5px 13px 2px 27px;
+    font-size: 14px;
+    direction: ltr;
+}
+.short-link-box .position-absolute{
+    top: 4px;
+    left: 7px;
+}
+
+.single-blog-img-box img{
+    /* max-height: 250px; */
+}
+
+/* blog single */
