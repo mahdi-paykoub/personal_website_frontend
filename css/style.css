@@ -1176,6 +1176,11 @@ textarea:focus {
     outline: none;
 }
 
+.related-posts-blog {
+    background-color: #f3f4f6;
+}
+
+
 /* media */
 @media only screen and (min-width: 576px) {}
 
