@@ -1063,34 +1063,28 @@ input:focus {
     border-radius: 5px;
 }
 
-.blog-cats-side ul {
-    padding: 0;
+
+
+.share-icon-box {
+    background: #bd0b31;
+    width: 40px;
+    height: 40px;
 }
 
-.blog-cats-side ul li {
-    list-style: none;
-    margin-top: 15px;
-}
-
-.blog-cats-side ul li a:hover {
-    color: var(--mian-text-color);
-}
-
-.undeline-red::after {
-    content: " ";
-    position: absolute;
-    bottom: 0;
+.rigt-line {
+    top: 0;
+    height: 100%;
+    width: 4px;
+    border-radius: 3px 0 0 3px;
     right: 0;
-    left: 0;
-    display: block;
-    height: 7px;
-    width: calc(100% + 6px);
-    background-color: #d10c3765;
-    -webkit-clip-path: polygon(6px 0, 100% 0, 100% 100%, 0 100%);
-    clip-path: polygon(6px 0, 100% 0, 100% 100%, 0 100%);
-    z-index: 0;
+    background: #d10c37;
 }
-.btn-cir-rotate::after{
+
+.blog-cats-side {
+    background-color: #f3f4f6;
+}
+
+.btn-cir-rotate::after {
     content: "";
     position: absolute;
     top: -56px;
@@ -1111,23 +1105,28 @@ input:focus {
     transition: var(--transition);
     z-index: 1;
 }
-.btn-cir-rotate:hover:after{
+
+.btn-cir-rotate:hover:after {
     animation: rotate 5s linear infinite;
 }
-.neci-size::after{
+
+.neci-size::after {
     top: -52px;
     left: -39px;
     width: 87px;
     height: 95px;
 }
-.send-co-b{
+
+.send-co-b {
     height: 50px;
     background-color: #303841 !important;
 }
+
 .w-fit {
     width: fit-content;
 }
-.sendbtn-c{
+
+.sendbtn-c {
     height: 45px;
     width: 112px;
     border: none;
@@ -1136,19 +1135,21 @@ input:focus {
     border-radius: 10px;
 }
 
-.sendbtn-c{
+.sendbtn-c {
     height: 45px;
     width: 112px;
     background: #303841;
     border-radius: 10px;
 }
-.sendbtn-c-2{
+
+.sendbtn-c-2 {
     height: 45px;
     width: 112px;
     background: #f3f4f6;
     border-radius: 10px;
     border: 1px solid #303841;
 }
+
 .tag-side {
     background: transparent;
     border: 1px solid #d7d7d7;
@@ -1162,16 +1163,19 @@ input:focus {
     border: none;
 }
 
-.tag-side:hover a{
+.tag-side:hover a {
     color: white;
 }
-.comment-textarea{
+
+.comment-textarea {
     background: #f3f4f6;
     border-radius: 13px;
 }
-textarea:focus{
+
+textarea:focus {
     outline: none;
 }
+
 /* media */
 @media only screen and (min-width: 576px) {}
 
