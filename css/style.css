@@ -529,8 +529,7 @@ a {
 }
 
 .bg-instagram {
-    background: url(../image/linear-pattern-1.png), linear-gradient(45deg, #d5374d, #d73144);
-    /*  url(../image/linear-pattern-1.png),  */
+    background: url(../image/linear-pattern-1.png), #d63347;
     background-position: right;
     border-radius: 30px;
 }
@@ -642,9 +641,7 @@ a {
     border-radius: 30px;
 }
 
-.bg-cons {
-    background: url(../image/linear-pattern-1.png), linear-gradient(45deg, #df8643, #dd1c46 60%);
-}
+
 
 .custom-white-color {
     color: #e4e4e4 !important;
@@ -1192,6 +1189,7 @@ textarea:focus {
 
 .read-blog-btn {
     color: #d05efc;
+    color: #4e4e4e;
     font-weight: 700;
     text-decoration: underline;
 }
