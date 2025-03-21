@@ -1198,6 +1198,40 @@ textarea:focus {
     box-shadow: 0 4px 60px -1px rgb(0 0 0 / 15%);
 }
 
+.second-menu{
+    box-shadow: 0px 1px 5px #dfdfdf45;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* media */
 @media only screen and (min-width: 576px) {}
 
