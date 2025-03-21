@@ -1201,7 +1201,7 @@ textarea:focus {
 
 .second-menu {
     /* box-shadow: 0px 1px 5px #dfdfdf45; */
-    /* box-shadow: 0 0 10px 3px rgba(124, 124, 124, 0.205); */
+    box-shadow: 0 0 10px 3px rgba(124, 124, 124, 0.205);
 }
 
 
@@ -1228,8 +1228,8 @@ textarea:focus {
     color: white !important;
 }
 
-.bb-t:hover svg{
-   
+.bb-t:hover svg {
+
     color: white !important;
 }
 
@@ -1237,6 +1237,10 @@ textarea:focus {
     background: url(../image/linear-pattern-1.png), #d63347;
 }
 
+.second-header-menu li:nth-last-child(-n+2) a,
+.second-header-menu li:nth-last-child(-n+2) a svg {
+    color: #bb2d3e;
+}
 
 
 
