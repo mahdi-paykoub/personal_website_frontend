@@ -38,8 +38,9 @@ body.dark-mode {
     --bg-color: #0e2338;
     --text-color: #ffffff;
 } */
+
 .bg-red-color {
-    background-color: #d10c37;
+    background-color: #d10c37 !important;
 }
 
 .custom-dark-color {
@@ -192,6 +193,10 @@ a {
 
 .fs40 {
     font-size: 40px;
+}
+
+.fs50 {
+    font-size: 50px;
 }
 
 .br-10 {
@@ -1196,14 +1201,8 @@ textarea:focus {
 }
 
 .all-blog-box:hover {
-    box-shadow: 0 4px 60px -1px rgb(0 0 0 / 15%);
+    box-shadow: 0 4px 60px -1px rgba(0, 0, 0, 0.103);
 }
-
-.second-menu {
-    /* box-shadow: 0px 1px 5px #dfdfdf45; */
-    box-shadow: 0 0 10px 3px rgba(124, 124, 124, 0.205);
-}
-
 
 .second-header-menu li {
     font-size: 16px;
@@ -1223,9 +1222,7 @@ textarea:focus {
 }
 
 .bb-t:hover {
-    transition: .4s all;
-    background: #c94454;
-    color: white !important;
+    box-shadow: 0px 5px 10px #e2e2e2;
 }
 
 .bb-t:hover svg {
@@ -1247,20 +1244,117 @@ textarea:focus {
 
 
 
+/* background  */
 
 
 
 
+.main-example-images img:first-child {
+    border-radius: 20px;
+    box-shadow: 14px 14px 17px 0px #6e6e6e;
+}
+
+.main-example-images img:nth-child(2) {
+    right: -83px;
+    bottom: -55px;
+    box-shadow: 8px 9px 10px #cbcbcb;
+}
+
+
+.all-ex-btn {
+    border: none;
+    background: #3b82f6;
+    color: white;
+    padding: 22px 26px;
+    padding: 1.25rem 1.75rem;
+    border-radius: 0.5rem;
+}
+
+.third-header-menu {
+    background: #f3f4f6;
+    border-radius: 15px;
+}
+
+.third-header-menu li:nth-last-child(-n+2) a,
+.third-header-menu li:nth-last-child(-n+2) a svg {
+    color: #000000;
+}
+
+.bg-blue {
+    background: #3b82f6;
+}
+
+@keyframes upDown {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-7px);
+    }
+}
+
+.elementupdown {
+    animation: upDown 3s infinite;
+}
+
+.mt-190px {
+    margin-top: 150px;
+}
+
+.mt-200px {
+    margin-top: 250px;
+}
+
+
+.linear-img-pos {
+    right: 32px;
+    border: 2px solid white;
+}
+
+.ex-box {
+    background-color: #eeeef3;
+}
 
 
 
+.eye-view-btn {
+    color: #7367F0;
+    background-color: #7367F01A;
+}
+
+.ex-box:hover .eye-view-btn {
+    color: white;
+    background-color: #7367F0;
+    transition: .4s all;
+}
 
 
+.number-of-ex {
+    background: linear-gradient(to bottom, #d8dbe7 38%, #f0f2f8 95%);
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    font-size: 200px;
+    font-weight: 800;
+    top: -140px;
+    z-index: -1;
+}
 
 
+.cardSwiper img {
+    border-radius: 10px;
+}
 
+.cardSwiper .swiper-slide {
+    border-radius: 10px;
+}
 
-
+.ex-pa-adminpanel img {
+    height: 540px;
+    object-fit: cover;
+}
 
 
 /* media */
