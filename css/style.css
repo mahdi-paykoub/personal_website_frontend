@@ -1284,6 +1284,10 @@ textarea:focus {
     background: #3b82f6;
 }
 
+.bg-blue-2 {
+    background: url(../image/linear-pattern-1.png),#3b82f6;
+}
+
 @keyframes upDown {
 
     0%,
