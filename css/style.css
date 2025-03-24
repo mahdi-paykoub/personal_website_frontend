@@ -1285,7 +1285,7 @@ textarea:focus {
 }
 
 .bg-blue-2 {
-    background: url(../image/linear-pattern-1.png),#3b82f6;
+    background: url(../image/linear-pattern-1.png), #3b82f6;
 }
 
 
@@ -1357,7 +1357,8 @@ textarea:focus {
     height: 540px;
     object-fit: cover;
 }
-.code-icon-img{
+
+.code-icon-img {
     width: 60px;
     height: 60px;
     top: 50%;
@@ -1365,14 +1366,15 @@ textarea:focus {
     transform: translate(-50%, -50%);
     z-index: 1;
 }
-.code-icon-img-2{
+
+.code-icon-img-2 {
     width: 75px;
     height: 75px;
     background-color: rgb(173 173 173 / 30%);
     z-index: 0;
 }
 
-.left-back-sahpe{
+.left-back-sahpe {
     left: -30px;
     top: -40px;
     width: 200px;
@@ -1382,11 +1384,38 @@ textarea:focus {
 }
 
 
+.accordion-button::after {
+    margin-right: auto !important;
+    margin-left: 0 !important;
+}
 
+.accordion-button {
+    font-weight: 700;
+    font-size: 17px;
+    color: var(--dark-text-color) !important;
+    background-color: #f3f4f6 !important;
+}
 
+.faq-box-img img:nth-child(2) {
+    margin-right: -35px;
+}
 
+.faq-box-img img {
+    border: 2px solid white;
+}
 
+.accordion-button div {
+    padding: 6px 15px 0px;
+    background: #d6d9dd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
 
+.accordion-body {
+    background: #f3f4f6;
+}
 
 
 
