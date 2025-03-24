@@ -1266,7 +1266,7 @@ textarea:focus {
     background: #3b82f6;
     color: white;
     padding: 22px 26px;
-    padding: 1.25rem 1.75rem;
+    padding: 1rem 1.2rem;
     border-radius: 0.5rem;
 }
 
@@ -1371,6 +1371,39 @@ textarea:focus {
     background-color: rgb(173 173 173 / 30%);
     z-index: 0;
 }
+
+.left-back-sahpe{
+    left: -30px;
+    top: -40px;
+    width: 200px;
+    height: 120%;
+    background-color: #f0f1f3;
+    border-radius: 0 0 150px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media */
 @media only screen and (min-width: 576px) {}
