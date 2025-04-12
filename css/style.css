@@ -614,6 +614,7 @@ a {
     color: transparent;
 }
 
+
 .laravel-service-btn {
     background: linear-gradient(45deg, #d47a3a, #d63347);
     color: white;
@@ -1284,6 +1285,11 @@ textarea:focus {
     background: #3b82f6;
 }
 
+.c-bg-dark {
+    background: #303841;
+}
+
+
 .bg-blue-2 {
     background: url(../image/linear-pattern-1.png), #3b82f6;
 }
@@ -1418,7 +1424,7 @@ textarea:focus {
 }
 
 
-.circle-blue-back{
+.circle-blue-back {
     width: 200px;
     height: 200px;
     background: #3b83f6;
@@ -1428,13 +1434,44 @@ textarea:focus {
 }
 
 
+.img-back-header {
+    width: 150px;
+    height: 550px;
+    background-color: #f4f4f4b5;
+    top: 50px;
+    z-index: -1;
+    right: 50px;
+
+}
+
+.img-back-header-2 {
+    right: 250px;
+    top: 140px;
+    height: 500px;
+}
 
 
+.img-back-header-3 {
+    right: 470px;
+    top: 200px;
+    height: 300px;
+    width: 120px;
+}
 
+.order-e-btn {
+    background: #f0ac0a;
+    padding: 13px 20px;
+    font-size: 14px;
+    color: white;
+}
+.support-bg-icon{
+    background: #f0ac0a;
+}
 
-
-
-
+.support-bg-icon{
+    width: 49px;
+    height: 49px;
+}
 
 
 
