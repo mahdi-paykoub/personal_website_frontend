@@ -751,7 +751,7 @@ footer .copyright svg {
 
 
 #text {
-    height: 180px;
+    height: 250px;
     overflow: hidden;
     transition: height 0.5s ease-in-out;
 
@@ -1391,7 +1391,11 @@ textarea:focus {
     background-color: #f0f1f3;
     border-radius: 0 0 150px 0;
 }
-
+.absolute-center{
+    left: 50%;
+    transform: translateX(-50%);  
+    bottom: -20px;
+}
 
 .accordion-button::after {
     margin-right: auto !important;
@@ -1403,6 +1407,7 @@ textarea:focus {
     font-size: 17px;
     color: var(--dark-text-color) !important;
     background-color: #f3f4f6 !important;
+    border-radius: 10px !important;
 }
 
 .faq-box-img img:nth-child(2) {
