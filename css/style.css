@@ -617,6 +617,9 @@ a {
 .bg-oragne-2 {
     background: url(../image/linear-pattern-1.png), #f0ac0a;
 }
+.bg-brown{
+    background: url(../image/linear-pattern-1.png), #d26a28;
+}
 
 .laravel-service-btn {
     background: linear-gradient(45deg, #d47a3a, #d63347);
@@ -749,6 +752,9 @@ footer .copyright svg {
     color: #919191;
 }
 
+.rotateY-180 {
+    transform: rotateY(180deg);
+}
 
 #text {
     height: 200px;
@@ -1391,9 +1397,10 @@ textarea:focus {
     background-color: #f0f1f3;
     border-radius: 0 0 150px 0;
 }
-.absolute-center{
+
+.absolute-center {
     left: 50%;
-    transform: translateX(-50%);  
+    transform: translateX(-50%);
     bottom: -20px;
 }
 
@@ -1489,9 +1496,33 @@ textarea:focus {
 .swiper-slide-active-center .laravel-sercvice-box {
     background: #f0ac0a;
 }
+.swiper-slide-active-center .laravel-sercvice-box-2 {
+    background: #d26a28;
+}
+
+
+
+
+.bg-ec-color {
+    background: #f0ac0a;
+}
+
+.text-ec-color {
+    color: #e4a50e;
+}
+
+
+.bg-company-color {
+    background: #d26a28;
+}
+
+.text-company-color {
+    color: #d26a28;
+}
 
 
 .swiper-slide-active-center .text-ec-color,
+.swiper-slide-active-center .text-company-color,
 .swiper-slide-active-center .custom-dark-color,
 .swiper-slide-active-center .text-secondary,
 .swiper-slide-active-center svg,
@@ -1503,22 +1534,6 @@ textarea:focus {
     background-color: white;
     color: #4c4c4c;
 }
-
-.bg-ec-color {
-    background: #f0ac0a;
-}
-
-.text-ec-color {
-    color: #e4a50e;
-}
-
-
-
-
-
-
-
-
 
 
 
