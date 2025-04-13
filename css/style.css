@@ -617,8 +617,16 @@ a {
 .bg-oragne-2 {
     background: url(../image/linear-pattern-1.png), #f0ac0a;
 }
-.bg-brown{
-    background: url(../image/linear-pattern-1.png), #dc7d2e;
+
+.bg-edu-2 {
+    background: url(../image/linear-pattern-1.png), #528ff0;
+}
+.bg-per-2 {
+    background: url(../image/linear-pattern-1.png), #303841;
+}
+
+.bg-brown {
+    background: url(../image/linear-pattern-1.png), #6bb999;
 }
 
 .laravel-service-btn {
@@ -647,9 +655,11 @@ a {
     border-radius: 50%;
     border: 1px solid #972230;
 }
-.learn-main-image{
+
+.learn-main-image {
     width: 90%;
 }
+
 .cons-box {
     background-color: #d73144;
     border-radius: 30px;
@@ -1498,11 +1508,26 @@ textarea:focus {
 .swiper-slide-active-center .laravel-sercvice-box {
     background: #f0ac0a;
 }
+
 .swiper-slide-active-center .laravel-sercvice-box-2 {
-    background: #dc7d2e;
+    background: #6bb999;
 }
 
+.swiper-slide-active-center .laravel-sercvice-box-edu {
+    background: #528ff0;
+}
 
+.swiper-slide-active-center .laravel-sercvice-box-per {
+    background: #303841;
+}
+
+.img-back-header-2.smaller-size {
+    height: 430px !important;
+}
+
+.img-back-header.smaller-size {
+    height: 485px;
+}
 
 
 .bg-ec-color {
@@ -1513,18 +1538,36 @@ textarea:focus {
     color: #e4a50e;
 }
 
+.text-edu-color {
+    color: #528ff0;
+}
+
+.bg-edu-color {
+    background: #528ff0;
+}
+
+.bg-per-color {
+    background: #303841;
+}
+
+.text-per-color {
+    color: #303841;
+}
+
 
 .bg-company-color {
-    background: #dc7d2e;
+    background: #6bb999;
 }
 
 .text-company-color {
-    color: #dc7d2e;
+    color: #6bb999;
 }
 
 
 .swiper-slide-active-center .text-ec-color,
 .swiper-slide-active-center .text-company-color,
+.swiper-slide-active-center .text-per-color,
+.swiper-slide-active-center .text-edu-color,
 .swiper-slide-active-center .custom-dark-color,
 .swiper-slide-active-center .text-secondary,
 .swiper-slide-active-center svg,
