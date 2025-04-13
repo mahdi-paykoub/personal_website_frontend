@@ -618,7 +618,7 @@ a {
     background: url(../image/linear-pattern-1.png), #f0ac0a;
 }
 .bg-brown{
-    background: url(../image/linear-pattern-1.png), #d26a28;
+    background: url(../image/linear-pattern-1.png), #dc7d2e;
 }
 
 .laravel-service-btn {
@@ -647,7 +647,9 @@ a {
     border-radius: 50%;
     border: 1px solid #972230;
 }
-
+.learn-main-image{
+    width: 90%;
+}
 .cons-box {
     background-color: #d73144;
     border-radius: 30px;
@@ -1497,7 +1499,7 @@ textarea:focus {
     background: #f0ac0a;
 }
 .swiper-slide-active-center .laravel-sercvice-box-2 {
-    background: #d26a28;
+    background: #dc7d2e;
 }
 
 
@@ -1513,11 +1515,11 @@ textarea:focus {
 
 
 .bg-company-color {
-    background: #d26a28;
+    background: #dc7d2e;
 }
 
 .text-company-color {
-    color: #d26a28;
+    color: #dc7d2e;
 }
 
 
