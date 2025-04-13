@@ -614,6 +614,9 @@ a {
     color: transparent;
 }
 
+.bg-oragne-2 {
+    background: url(../image/linear-pattern-1.png), #f0ac0a;
+}
 
 .laravel-service-btn {
     background: linear-gradient(45deg, #d47a3a, #d63347);
@@ -1459,19 +1462,94 @@ textarea:focus {
 }
 
 .order-e-btn {
-    background: #f0ac0a;
     padding: 13px 20px;
     font-size: 14px;
     color: white;
 }
-.support-bg-icon{
-    background: #f0ac0a;
-}
 
-.support-bg-icon{
+
+
+.support-bg-icon {
     width: 49px;
     height: 49px;
 }
+
+.swiper-slide-active-center {
+    transition: transform 0.3s ease;
+    transform: scale(1.08) !important;
+    z-index: 10;
+
+}
+
+.swiper-slide-active-center .laravel-sercvice-box {
+    background: #f0ac0a;
+}
+
+
+.swiper-slide-active-center .text-ec-color,
+.swiper-slide-active-center .custom-dark-color,
+.swiper-slide-active-center .text-secondary,
+.swiper-slide-active-center svg,
+.swiper-slide-active-center svg+div {
+    color: white !important;
+}
+
+.swiper-slide-active-center button {
+    background-color: white;
+    color: #4c4c4c;
+}
+
+.bg-ec-color {
+    background: #f0ac0a;
+}
+
+.text-ec-color {
+    color: #e4a50e;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

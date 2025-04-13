@@ -161,7 +161,44 @@ const laravel_service_swiper = new Swiper('.laravel-service-swiper', {
     },
 })
 
+const laravel_service_ec_swiper = new Swiper('.laravel-service-ec-swiper', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    centeredSlides: true,
 
+    on: {
+        slideChangeTransitionEnd: function () {
+            setActiveSlideStyle(this);
+        },
+        init: function () {
+            setActiveSlideStyle(this);
+        }
+    },
+    breakpoints: {
+        320: {
+            slidesPerView: 3,
+            spaceBetween: 20
+        },
+        992: {
+            slidesPerView: 3,
+            spaceBetween: 42
+        }
+    },
+    navigation: {
+        nextEl: '.custom-next',
+        prevEl: '.custom-prev',
+    },
+})
+
+function setActiveSlideStyle(swiper) {
+    swiper.slides.forEach(slide => {
+        slide.classList.remove('swiper-slide-active-center');
+    });
+
+    const activeIndex = swiper.activeIndex;
+    swiper.slides[activeIndex].classList.add('swiper-slide-active-center');
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     const textElement = document.getElementById("text");
