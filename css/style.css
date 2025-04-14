@@ -618,6 +618,10 @@ a {
     background: url(../image/linear-pattern-1.png), #f0ac0a;
 }
 
+.bg-set-2 {
+    background: url(../image/linear-pattern-1.png), #7c95c0;
+}
+
 .bg-edu-2 {
     background: url(../image/linear-pattern-1.png), #528ff0;
 }
@@ -1521,6 +1525,7 @@ textarea:focus {
 .swiper-slide-active-center .laravel-sercvice-box-per {
     background: #303841;
 }
+
 .swiper-slide-active-center .laravel-sercvice-box-set {
     background: #7c95c0;
 }
@@ -1561,7 +1566,8 @@ textarea:focus {
 .bg-set-color {
     background: #7c95c0;
 }
-.text-set-color{
+
+.text-set-color {
     color: #7c95c0;
 }
 
@@ -1573,6 +1579,11 @@ textarea:focus {
     color: #6bb999;
 }
 
+.arrow-land--f {
+    bottom: -200px;
+    right: 31%;
+    color: #dfdfdf;
+}
 
 .swiper-slide-active-center .text-ec-color,
 .swiper-slide-active-center .text-set-color,
