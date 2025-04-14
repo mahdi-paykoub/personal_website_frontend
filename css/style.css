@@ -621,6 +621,7 @@ a {
 .bg-edu-2 {
     background: url(../image/linear-pattern-1.png), #528ff0;
 }
+
 .bg-per-2 {
     background: url(../image/linear-pattern-1.png), #303841;
 }
@@ -1520,9 +1521,12 @@ textarea:focus {
 .swiper-slide-active-center .laravel-sercvice-box-per {
     background: #303841;
 }
+.swiper-slide-active-center .laravel-sercvice-box-set {
+    background: #7c95c0;
+}
 
 .img-back-header-2.smaller-size {
-    height: 430px !important;
+    height: 350px !important;
 }
 
 .img-back-header.smaller-size {
@@ -1554,6 +1558,12 @@ textarea:focus {
     color: #303841;
 }
 
+.bg-set-color {
+    background: #7c95c0;
+}
+.text-set-color{
+    color: #7c95c0;
+}
 
 .bg-company-color {
     background: #6bb999;
@@ -1565,6 +1575,7 @@ textarea:focus {
 
 
 .swiper-slide-active-center .text-ec-color,
+.swiper-slide-active-center .text-set-color,
 .swiper-slide-active-center .text-company-color,
 .swiper-slide-active-center .text-per-color,
 .swiper-slide-active-center .text-edu-color,
