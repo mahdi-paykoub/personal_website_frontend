@@ -210,8 +210,9 @@ a {
 .br-5 {
     border-radius: 5px;
 }
+
 .br-30 {
-    border-radius:30px;
+    border-radius: 30px;
 }
 
 .back-circle {
@@ -265,7 +266,7 @@ a {
 
 .main-menu ul li {
     margin-right: 25px;
-    font-size: 16px;
+    font-size: 15px;
     position: relative;
 }
 
@@ -499,7 +500,7 @@ a {
 
 .road-box:hover svg,
 .road-box:hover+div {
-    color: var(--mian-text-color-2) !important;
+    color: #528ff0 !important;
     transition: .2s all;
 }
 
@@ -606,7 +607,7 @@ a {
 
 .laravel-sercvice-box {
     border: 1px solid rgb(224, 224, 224);
-    border-radius: 10px;
+    border-radius: 20px;
     box-shadow: 2px 2px 5px lightgrey;
 }
 
@@ -1626,7 +1627,8 @@ textarea:focus {
     font-size: 14px;
     color: #3d3d3d;
 }
-.arrow-main-header-back{
+
+.arrow-main-header-back {
     width: 40px;
     height: 40px;
     background: #fff;
@@ -1634,52 +1636,65 @@ textarea:focus {
 }
 
 
-.bg-main-blue{
-    background: #3b83f6;
+.bg-main-blue {
+    background: #3b83f6 !important;
 }
-.text-main-blue{
+
+.text-main-blue {
     color: #3b83f6;
 }
-.h-150px{
-    height: 165px;
+
+.h-150px {
+    height: 165px !important;
 }
-.bg-line-color{
+
+.bg-line-color {
     background-color: #306ccc;
 }
-.bg-arm-1{
+
+.bg-arm-1 {
     width: 10px;
     height: 10px;
     right: 0;
 }
-.bg-arm-2{
+
+.bg-arm-2 {
     height: 78px;
     width: 2px;
     right: 4px;
     z-index: -1;
 }
-.bg-arm-3{
+
+.bg-arm-3 {
     width: 99%;
     height: 2px;
     top: 126px;
     right: 4px;
 }
-.bg-arm-4{
+
+.bg-arm-4 {
     height: 78px;
     left: 10px;
     width: 2px;
     bottom: 7px;
 }
-.bg-arm-5{
+
+.bg-arm-5 {
     width: 10px;
     height: 10px;
     left: 6px;
     bottom: 0;
 }
 
+.order-inp {
+    height: 45px;
+    background: #f3f4f6;
+}
 
 
-
-
+.h-120px {
+    height: 120px;
+}
 
 
 
