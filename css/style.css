@@ -210,6 +210,9 @@ a {
 .br-5 {
     border-radius: 5px;
 }
+.br-30 {
+    border-radius:30px;
+}
 
 .back-circle {
     border-radius: 50%;
@@ -292,16 +295,16 @@ a {
 .castbox {
     border-radius: 20px 20px 70px 70px;
     height: 270px;
-    background: url(../image/linear-pattern-1.png), #d73144;
+    background: url(../image/linear-pattern-1.png), #3b83f6;
     background-position: right;
 }
 
 .more-podcast-btn {
-    background: #ffae00;
+    background: #fff;
     border: none;
     padding: 12px;
     border-radius: 10px;
-    color: white;
+    color: black;
 }
 
 .simple-w {
@@ -1603,23 +1606,75 @@ textarea:focus {
 }
 
 
+.main-box-back {
+    background-color: #3b83f6;
+    border-radius: 60px;
+    height: 270px;
+}
+
+.float-main-image {
+    top: -125px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 55%;
+}
 
 
+.main-header-btn {
+    padding: 9px 15px;
+    border-radius: 23px;
+    font-size: 14px;
+    color: #3d3d3d;
+}
+.arrow-main-header-back{
+    width: 40px;
+    height: 40px;
+    background: #fff;
+    border-radius: 50%;
+}
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+.bg-main-blue{
+    background: #3b83f6;
+}
+.text-main-blue{
+    color: #3b83f6;
+}
+.h-150px{
+    height: 165px;
+}
+.bg-line-color{
+    background-color: #306ccc;
+}
+.bg-arm-1{
+    width: 10px;
+    height: 10px;
+    right: 0;
+}
+.bg-arm-2{
+    height: 78px;
+    width: 2px;
+    right: 4px;
+    z-index: -1;
+}
+.bg-arm-3{
+    width: 99%;
+    height: 2px;
+    top: 126px;
+    right: 4px;
+}
+.bg-arm-4{
+    height: 78px;
+    left: 10px;
+    width: 2px;
+    bottom: 7px;
+}
+.bg-arm-5{
+    width: 10px;
+    height: 10px;
+    left: 6px;
+    bottom: 0;
+}
 
 
 

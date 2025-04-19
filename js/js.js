@@ -89,6 +89,23 @@ const swiper = new Swiper('.swiper', {
     }
 })
 
+
+const swiper_cat = new Swiper('.swiper_cat', {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    breakpoints: {
+        320: {
+            slidesPerView: 1.8,
+            spaceBetween: 20
+        },
+        992: {
+            slidesPerView: 6,
+            spaceBetween: 30,
+        }
+    }
+})
+
 const swiper_tech = new Swiper('.swiper-tech', {
     slidesPerView: 1,
     spaceBetween: 10,
