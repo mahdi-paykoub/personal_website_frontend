@@ -249,11 +249,11 @@ a {
 
 .login-btn-header {
     background: transparent;
-    border: 1px solid #c8020c;
+    border: 1px solid #528ff0;
     padding: 7px 13px;
     border-radius: 10px;
     font-size: 13px;
-    color: #c8020c;
+    color: #528ff0;
 }
 
 .main-menu ul {
@@ -751,7 +751,7 @@ footer {
 }
 
 .social-icon-box:hover {
-    background: #d73347;
+    background: #3b83f6;
 }
 
 .border-foo-bottom {
