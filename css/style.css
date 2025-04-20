@@ -1696,7 +1696,11 @@ textarea:focus {
     height: 120px;
 }
 
-
+.order-main-image-back{
+    border-radius: 10px;
+    background: #f3f4f6;
+    padding: 45px 0;
+}
 
 
 
