@@ -267,17 +267,27 @@ a {
 .main-menu ul li {
     margin-right: 25px;
     font-size: 15px;
-    position: relative;
+    /* position: relative; */
 }
 
 .main-menu ul li a {
     color: #000000;
 }
 
-/* .main-menu ul li a.active {
-    font-weight: 700;
-    color: rgb(87, 87, 87);
-} */
+.sub-main-menu {
+    right: 0;
+    height: fit-content;
+    top: 104px;
+    z-index: 100;
+    box-shadow: rgba(173, 188, 200, .22) 0 15px 50px;
+    display: none;
+    border-radius: 15px;
+}
+
+.mega-menu:hover .sub-main-menu {
+    display: block;
+}
+
 .border-header-bottom {
     border-bottom: 2px solid #8700070f;
 }
@@ -1697,7 +1707,8 @@ textarea:focus {
 
 
 
-
+/* menu */
+.sub-main-menu {}
 
 
 
