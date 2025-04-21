@@ -1515,7 +1515,7 @@ textarea:focus {
 }
 
 .swiper-slide-active-center .laravel-sercvice-box {
-    background: #f0ac0a;
+    background: #3b83f6;
 }
 
 .swiper-slide-active-center .laravel-sercvice-box-2 {
@@ -1589,22 +1589,7 @@ textarea:focus {
     color: #dfdfdf;
 }
 
-.swiper-slide-active-center .text-ec-color,
-.swiper-slide-active-center .text-set-color,
-.swiper-slide-active-center .text-company-color,
-.swiper-slide-active-center .text-per-color,
-.swiper-slide-active-center .text-edu-color,
-.swiper-slide-active-center .custom-dark-color,
-.swiper-slide-active-center .text-secondary,
-.swiper-slide-active-center svg,
-.swiper-slide-active-center svg+div {
-    color: white !important;
-}
 
-.swiper-slide-active-center button {
-    background-color: white;
-    color: #4c4c4c;
-}
 
 
 .main-box-back {
@@ -1696,13 +1681,18 @@ textarea:focus {
     height: 120px;
 }
 
-.order-main-image-back{
-    border-radius: 10px;
-    background: #f3f4f6;
-    padding: 45px 0;
+.swiper-slide-active-center .text-main-blue,
+.swiper-slide-active-center .custom-dark-color,
+.swiper-slide-active-center .text-secondary,
+.swiper-slide-active-center svg,
+.swiper-slide-active-center svg+div {
+    color: white !important;
 }
 
-
+.swiper-slide-active-center button {
+    background-color: white !important;
+    color: #4c4c4c !important;
+}
 
 
 
