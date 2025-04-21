@@ -828,6 +828,7 @@ footer .copyright svg {
 
 
 /* login */
+
 .login-intro {
     background: #3b83f6;
     width: 100%;
@@ -1103,7 +1104,7 @@ input:focus {
 
 
 .share-icon-box {
-    background: #bd0b31;
+    background: #3b83f6;
     width: 40px;
     height: 40px;
 }
@@ -1114,7 +1115,7 @@ input:focus {
     width: 4px;
     border-radius: 7px 0 0 7px;
     right: 0;
-    background: #d10c37;
+    background: #3b83f6;
 }
 
 .blog-cats-side {
