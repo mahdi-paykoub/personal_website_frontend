@@ -829,7 +829,7 @@ footer .copyright svg {
 
 /* login */
 .login-intro {
-    background: url(../image/auth-bg.jpg);
+    background: #3b83f6;
     width: 100%;
     background-size: cover;
     height: 100vh;
@@ -839,7 +839,7 @@ footer .copyright svg {
 .login-logo-img-back {
     width: 250px;
     height: 250px;
-    background-color: #ffb6be;
+    background-color: #b6c9ff;
     border-radius: 50%;
 }
 
@@ -1519,7 +1519,7 @@ textarea:focus {
 }
 
 .swiper-slide-active-center .laravel-sercvice-box-2 {
-    background: #6bb999;
+    background: #3b83f6;
 }
 
 .swiper-slide-active-center .laravel-sercvice-box-edu {
