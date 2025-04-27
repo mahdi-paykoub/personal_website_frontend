@@ -20,6 +20,9 @@ body {
     color: #303841;
 }
 
+.z-index-10{
+    z-index: 10;
+}
 
 .fw-100 {
     font-weight: 100;
@@ -1215,7 +1218,7 @@ textarea:focus {
 .float-image-testeminoal{
     right: 0;
     z-index: -1;
-    top: -33px;
+    top: 200px;
     transform: rotate(323deg);
 }
 .float-image-testeminoal-2{
@@ -1224,7 +1227,14 @@ textarea:focus {
     bottom: 71px;
 }
 
-
+.site-service-landing-img{
+    filter: drop-shadow(50px 70px 10px #00000022) !important;
+}
+.btn-for-all-service{
+    color: white;
+    padding: 10px 16px;
+    border-radius: 4.5rem;
+}
 
 
 
