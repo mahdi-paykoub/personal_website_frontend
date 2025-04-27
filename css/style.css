@@ -16,7 +16,9 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
 }
-
+.custom-dark-color{
+    color: #303841;
+}
 
 
 .fw-100 {
@@ -1211,14 +1213,15 @@ textarea:focus {
     background-color: var(--secondary-blue-color);
 }
 .float-image-testeminoal{
-    right: -159px;
+    right: 0;
     z-index: -1;
-    top: -130px;
+    top: -33px;
+    transform: rotate(323deg);
 }
 .float-image-testeminoal-2{
-    left: -176px;
+    left: 65px;
     z-index: -1;
-    top: 140px;
+    bottom: 71px;
 }
 
 
