@@ -89,7 +89,6 @@ const swiper = new Swiper('.swiper', {
     }
 })
 
-
 const swiper_cat = new Swiper('.swiper_cat', {
     slidesPerView: 1,
     spaceBetween: 10,
