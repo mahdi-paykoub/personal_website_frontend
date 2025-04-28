@@ -9,6 +9,7 @@
     --secondary-text-color: #494949;
     --dark-text-color: #373737;
     --secondary-blue-color: #F1F5FF;
+    --secondary-color: #f3f4f6;
 }
 
 
@@ -16,11 +17,16 @@ body {
     background-color: var(--bg-color);
     color: var(--text-color);
 }
-.custom-dark-color{
+
+.bg-secondary-color {
+    background: var(--secondary-color);
+}
+
+.custom-dark-color {
     color: #303841;
 }
 
-.z-index-10{
+.z-index-10 {
     z-index: 10;
 }
 
@@ -46,6 +52,9 @@ body {
     font-weight: 800;
 }
 
+.word-spacing {
+    word-spacing: -2px;
+}
 
 
 
@@ -130,6 +139,10 @@ a {
     font-size: 30px;
 }
 
+.fs35 {
+    font-size: 35px;
+}
+
 .fs40 {
     font-size: 40px;
 }
@@ -205,13 +218,13 @@ a {
     background-position: right;
 }
 
-.more-podcast-btn {
+/* .more-podcast-btn {
     background: #fff;
     border: none;
     padding: 12px;
     border-radius: 10px;
     color: black;
-}
+} */
 
 
 
@@ -285,12 +298,12 @@ a {
     filter: brightness(.85);
 }
 
-.podcast-img {
+/* .podcast-img {
     border-radius: 30px;
     filter: brightness(0.8);
     box-shadow: 0px 8px 10px #5252524d;
     max-height: 200px;
-}
+} */
 
 .glassy-box {
     bottom: 0;
@@ -304,23 +317,26 @@ a {
     -webkit-backdrop-filter: blur(5px);
 }
 
-.play-icon-podcast {
+/* .play-icon-podcast {
     width: 35px;
     height: 35px;
 
-}
+} */
 
-.play-icon-podcast svg {
+/* .play-icon-podcast svg {
     padding-left: 2px;
-}
+} */
 
-.podcast-bg {
+/* .podcast-bg {
     background: linear-gradient(to bottom, #fdefe6, #ffffff);
-}
+} */
 
-.podcast-cover-model {
+/* .podcast-cover-model {
     height: 296px;
     object-fit: cover;
+} */
+.service-box-detail {
+    border: 1px solid rgb(224 224 224);
 }
 
 .second-title {
@@ -1215,28 +1231,38 @@ textarea:focus {
 .testemonial-card {
     background-color: var(--secondary-blue-color);
 }
-.float-image-testeminoal{
+
+.float-image-testeminoal {
     right: 0;
     z-index: -1;
     top: 200px;
     transform: rotate(323deg);
 }
-.float-image-testeminoal-2{
+
+.float-image-testeminoal-2 {
     left: 65px;
     z-index: -1;
     bottom: 71px;
 }
 
-.site-service-landing-img{
+.site-service-landing-img {
     filter: drop-shadow(50px 70px 10px #00000022) !important;
 }
-.btn-for-all-service{
+
+.btn-for-all-service {
     color: white;
     padding: 10px 16px;
     border-radius: 4.5rem;
 }
 
+.link-circle-ser {
+    width: 35px;
+    height: 35px;
+}
 
+.btn-padding {
+    padding: 13px 20px;
+}
 
 /* media */
 @media only screen and (min-width: 576px) {}
