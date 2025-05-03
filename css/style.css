@@ -1262,8 +1262,18 @@ textarea:focus {
     color: #c6ccda;
 }
 
-
-
+.blog-box-main{
+    box-shadow: 1px 6px 9px #e6e6e647;
+    border: 1px solid #f4f4f4;
+}
+.blog-card-btn{
+    background: #528ff0;
+    color: white;
+    border: 0;
+    padding: 10px 25px;
+    border-radius: 7px;
+    font-size: 15px;
+}
 
 /* media */
 @media only screen and (min-width: 576px) {}
