@@ -10,8 +10,23 @@
     --dark-text-color: #373737;
     --secondary-blue-color: #F1F5FF;
     --secondary-color: #f3f4f6;
+
+
+    --ecomerce-color: #6589AA;
+    --secondary-blac-color: #6b7c93;
 }
 
+.secondary-black-color {
+    color: var(--secondary-blac-color);
+}
+
+.bg-ecommerce {
+    background-color: var(--ecomerce-color);
+}
+
+.text-ecommerce {
+    color: var(--ecomerce-color);
+}
 
 body {
     background-color: var(--bg-color);
@@ -166,7 +181,6 @@ a {
 .br-30 {
     border-radius: 30px;
 }
-
 
 .main-menu ul {
     display: flex;
@@ -996,7 +1010,7 @@ textarea:focus {
 }
 
 .order-e-btn {
-    padding: 13px 20px;
+    padding: 13px 25px;
     font-size: 14px;
     color: white;
 }
@@ -1015,17 +1029,17 @@ textarea:focus {
 
 }
 
-.swiper-slide-active-center .laravel-sercvice-box {
-    background: #3b83f6;
-}
+/* .swiper-slide-active-center .laravel-sercvice-box {
+    background: #528ff0;
+} */
 
-.swiper-slide-active-center .laravel-sercvice-box-2 {
+/* .swiper-slide-active-center .laravel-sercvice-box-2 {
     background: #3b83f6;
 }
 
 .swiper-slide-active-center .laravel-sercvice-box-edu {
     background: #528ff0;
-}
+} */
 
 .swiper-slide-active-center .laravel-sercvice-box-per {
     background: #303841;
@@ -1199,9 +1213,10 @@ textarea:focus {
     height: 120px;
 }
 
-.swiper-slide-active-center .text-main-blue,
+/* .swiper-slide-active-center .text-main-blue,
 .swiper-slide-active-center .custom-dark-color,
 .swiper-slide-active-center .text-secondary,
+.swiper-slide-active-center .text-edu-color,
 .swiper-slide-active-center svg,
 .swiper-slide-active-center svg+div {
     color: white !important;
@@ -1211,7 +1226,7 @@ textarea:focus {
     background-color: white !important;
     color: #4c4c4c !important;
 }
-
+ */
 
 
 
@@ -1220,7 +1235,9 @@ textarea:focus {
 }
 
 .testemonial-card {
-    background-color: var(--secondary-blue-color);
+    /* background-color: var(--secondary-blue-color); */
+    box-shadow: 0 0 10px #e6e6e671;
+    border: 1px solid #f4f4f4;
 }
 
 .float-image-testeminoal {
@@ -1262,17 +1279,40 @@ textarea:focus {
     color: #c6ccda;
 }
 
-.blog-box-main{
+.blog-box-main {
     box-shadow: 1px 6px 9px #e6e6e647;
     border: 1px solid #f4f4f4;
 }
-.blog-card-btn{
+
+.blog-card-btn {
     background: #528ff0;
     color: white;
     border: 0;
     padding: 10px 25px;
     border-radius: 7px;
     font-size: 15px;
+}
+
+.teach-card {
+    background-color: #f3f4f6;
+    border-radius: 15px;
+}
+
+.image-containerlanding {
+    width: 100%;
+    height: 550px;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;   
+    box-shadow: 0 10px 30px #32325d1f,0 -1px 4px #0000000f;
+
+}
+.bg-box-sahpe{
+    background: #F9FAFB;
+    height: 600px;
+    border-radius: 35px 35px 380px 35px;
+    z-index: -1;
+    top: -60px;
 }
 
 /* media */

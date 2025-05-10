@@ -252,3 +252,12 @@ const swiperswiper_shop_ex = new Swiper('.swiper_shop_ex', {
         }
     }
 })
+
+//aouto scroll
+// window.onload = function () {
+//     const container = document.getElementById('scrollContainer');
+//     container.scrollTo({
+//         top: 1000, 
+//         behavior: 'smooth'
+//     });
+// };
