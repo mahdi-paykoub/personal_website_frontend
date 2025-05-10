@@ -254,10 +254,45 @@ const swiperswiper_shop_ex = new Swiper('.swiper_shop_ex', {
 })
 
 //aouto scroll
-// window.onload = function () {
-//     const container = document.getElementById('scrollContainer');
-//     container.scrollTo({
-//         top: 1000, 
-//         behavior: 'smooth'
-//     });
-// };
+window.onload = function () {
+    const container = document.getElementById('scrollContainer');
+    const targetScroll = 450;
+    const scrollDuration = 4000;
+
+    function easeOutCubic(t) {
+      return 1 - Math.pow(1 - t, 3);
+    }
+
+    function animateScroll(start, end, duration) {
+      return new Promise((resolve) => {
+        const startTime = performance.now();
+
+        function scrollFrame(currentTime) {
+          const elapsed = currentTime - startTime;
+          const progress = Math.min(elapsed / duration, 1);
+          const eased = easeOutCubic(progress);
+          container.scrollTop = start + (end - start) * eased;
+
+          if (progress < 1) {
+            requestAnimationFrame(scrollFrame);
+          } else {
+            resolve();
+          }
+        }
+
+        requestAnimationFrame(scrollFrame);
+      });
+    }
+
+    async function loop() {
+      await new Promise((r) => setTimeout(r, 3000));  // 3 ثانیه تأخیر اول
+      while (true) {
+        await animateScroll(0, targetScroll, scrollDuration);       // اسکرول پایین
+        await new Promise((r) => setTimeout(r, 1000));              // مکث 1 ثانیه
+        await animateScroll(targetScroll, 0, scrollDuration);       // اسکرول بالا
+        await new Promise((r) => setTimeout(r, 3000));              // مکث 3 ثانیه قبل از تکرار
+      }
+    }
+
+    loop();
+  };
