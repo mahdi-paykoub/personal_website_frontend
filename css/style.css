@@ -1323,7 +1323,16 @@ textarea:focus {
     z-index: -1;
     top: -60px;
     left: 0;
-    width: 50%;
+    width: 40%;
+}
+.bg-box-sahpe-2 {
+    height: 624px;
+    border-radius: 10px 10px 380px 10px;
+    top: 0;
+    left: 50px;
+    width: 40%;
+    border: 1px solid #dededeb3;
+    z-index: -2;
 }
 
 .right-image-landing {
@@ -1380,14 +1389,16 @@ textarea:focus {
     }
 }
 
-.bg-float-svg{
+.bg-float-svg {
     top: -26px;
     left: 82px;
 }
-.bg-float-svg-2{
+
+.bg-float-svg-2 {
     bottom: -26px;
     right: 82px;
 }
+
 
 /* media */
 @media only screen and (min-width: 576px) {}
