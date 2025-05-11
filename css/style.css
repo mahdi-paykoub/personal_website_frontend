@@ -162,6 +162,10 @@ a {
     font-size: 40px;
 }
 
+.fs45 {
+    font-size: 45px;
+}
+
 .fs50 {
     font-size: 50px;
 }
@@ -403,6 +407,10 @@ a {
 
 .lh-1-8 {
     line-height: 1.8;
+}
+
+.lh-1-5 {
+    line-height: 1.5;
 }
 
 .bg-instagram {
@@ -1010,8 +1018,7 @@ textarea:focus {
 }
 
 .order-e-btn {
-    padding: 13px 25px;
-    font-size: 14px;
+    padding: 13px 35px;
     color: white;
 }
 
@@ -1099,9 +1106,10 @@ textarea:focus {
 }
 
 .arrow-land--f {
-    bottom: -200px;
+    bottom: -270px;
     right: 31%;
     color: #dfdfdf;
+    transform: rotateY(180deg);
 }
 
 
@@ -1300,26 +1308,87 @@ textarea:focus {
 
 .image-containerlanding {
     width: 100%;
-    height: 550px;
+    height: 530px;
     overflow-y: scroll;
     scrollbar-width: none;
-    -ms-overflow-style: none;   
-    box-shadow: 0 10px 30px #32325d1f,0 -1px 4px #0000000f;
+    -ms-overflow-style: none;
+    box-shadow: 0 10px 30px #32325d1f, 0 -1px 4px #0000000f;
 
 }
-.bg-box-sahpe{
+
+.bg-box-sahpe {
     background: #F9FAFB;
-    height: 600px;
-    border-radius: 35px 35px 380px 35px;
+    height: 650px;
+    border-radius: 10px 10px 380px 10px;
     z-index: -1;
     top: -60px;
+    left: 0;
+    width: 50%;
 }
-.right-image-landing{
-    bottom: 70px;
+
+.right-image-landing {
+    bottom: 50px;
     right: -90px;
-    box-shadow: 0 3px 6px #606cec26,0 1px 3px #0000001c;
+    box-shadow: 0 3px 6px #81828b26, 0 1px 3px #0000001c;
     border-radius: 10px;
 }
+
+
+.pulse-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin: 100px auto;
+}
+
+.circle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25px;
+    height: 25px;
+    margin: -20px 0 0 -20px;
+    border-radius: 50%;
+    background: #dedede99;
+    animation: pulse 2s infinite;
+    top: -50px;
+    z-index: -1;
+    right: 0;
+}
+
+.pulse2 {
+    animation-delay: 0.4s;
+}
+
+.pulse3 {
+    animation-delay: 0.8s;
+}
+
+.pulse4 {
+    animation-delay: 1.2s;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.5);
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(4);
+        opacity: 0;
+    }
+}
+
+.bg-float-svg{
+    top: -26px;
+    left: 82px;
+}
+.bg-float-svg-2{
+    bottom: -26px;
+    right: 82px;
+}
+
 /* media */
 @media only screen and (min-width: 576px) {}
 
