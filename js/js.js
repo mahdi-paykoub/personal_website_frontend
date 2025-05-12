@@ -256,8 +256,8 @@ const swiperswiper_shop_ex = new Swiper('.swiper_shop_ex', {
 //aouto scroll
 // window.onload = function () {
 //     const container = document.getElementById('scrollContainer');
-//     const targetScroll = 450;
-//     const scrollDuration = 4000;
+//     const targetScroll = 500;
+//     const scrollDuration = 10000;
 
 //     function easeOutCubic(t) {
 //       return 1 - Math.pow(1 - t, 3);
