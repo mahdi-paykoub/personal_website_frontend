@@ -256,8 +256,8 @@ const swiperswiper_shop_ex = new Swiper('.swiper_shop_ex', {
 //aouto scroll
 // window.onload = function () {
 //     const container = document.getElementById('scrollContainer');
-//     const targetScroll = 500;
-//     const scrollDuration = 10000;
+//     const targetScroll = 800;
+//     const scrollDuration = 15000;
 
 //     function easeOutCubic(t) {
 //       return 1 - Math.pow(1 - t, 3);
@@ -285,7 +285,7 @@ const swiperswiper_shop_ex = new Swiper('.swiper_shop_ex', {
 //     }
 
 //     async function loop() {
-//       await new Promise((r) => setTimeout(r, 3000));  // 3 ثانیه تأخیر اول
+//       await new Promise((r) => setTimeout(r, 2000));  // 3 ثانیه تأخیر اول
 //       while (true) {
 //         await animateScroll(0, targetScroll, scrollDuration);       // اسکرول پایین
 //         await new Promise((r) => setTimeout(r, 1000));              // مکث 1 ثانیه
