@@ -4,28 +4,18 @@
 
 
 :root {
-    --bg-color: #ffffff;
-    --text-color: #000000;
     --secondary-text-color: #494949;
     --dark-text-color: #373737;
     --secondary-blue-color: #F1F5FF;
     --secondary-color: #f3f4f6;
+}
 
-
-    --ecomerce-color: #6589AA;
-    --secondary-blac-color: #6b7c93;
+.bg-secendory-color {
+    background-color: var(--secondary-color);
 }
 
 .secondary-black-color {
     color: var(--secondary-blac-color);
-}
-
-.bg-ecommerce {
-    background-color: var(--ecomerce-color);
-}
-
-.text-ecommerce {
-    color: var(--ecomerce-color);
 }
 
 body {
@@ -873,14 +863,6 @@ textarea:focus {
 }
 
 
-
-
-.ex-box {
-    background-color: #eeeef3;
-}
-
-
-
 .eye-view-btn {
     color: #7367F0;
     background-color: #7367F01A;
@@ -1325,6 +1307,7 @@ textarea:focus {
     left: 0;
     width: 40%;
 }
+
 .bg-box-sahpe-2 {
     height: 624px;
     border-radius: 10px 10px 380px 10px;
@@ -1399,6 +1382,31 @@ textarea:focus {
     right: 82px;
 }
 
+.mt-180px {
+    margin-top: 180px;
+}
+
+.work-image-parent {
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+
+.work-image-parent img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    transition: transform 5s linear, filter .3s ease;
+    filter: grayscale(100%);
+    transform: translateY(0);
+}
+
+.work-image-parent:hover img {
+    transform: translateY(calc(-100% + 300px));
+    filter: grayscale(0%);
+
+}
 
 /* media */
 @media only screen and (min-width: 576px) {}
@@ -1424,6 +1432,3 @@ textarea:focus {
         max-width: 1400px;
     }
 }
-
-/* Hand drawn background about education
- */

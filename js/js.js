@@ -296,3 +296,6 @@ const swiperswiper_shop_ex = new Swiper('.swiper_shop_ex', {
 
 //     loop();
 //   };
+
+
+
