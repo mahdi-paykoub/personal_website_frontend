@@ -1430,6 +1430,11 @@ textarea:focus {
     padding: 10px;
 }
 
+.plan-card:hover .plan-icon-top,
+.plan-card:hover .plan-first-btn{
+    background: #528ff0;    
+}
+
 /* media */
 @media only screen and (min-width: 576px) {}
 
