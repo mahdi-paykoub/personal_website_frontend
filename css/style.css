@@ -1415,7 +1415,9 @@ textarea:focus {
     transform: translateY(calc(-100% + 300px));
     filter: grayscale(0%);
 }
-
+.box-border{
+    border: 1px solid #e5e5e5;
+}
 .plan-icon-top{
     width: 80px;
     height: 80px;
@@ -1434,6 +1436,38 @@ textarea:focus {
 .plan-card:hover .plan-first-btn{
     background: #528ff0;    
 }
+
+
+
+
+.move-swiper-btn{
+    height: 45px;
+    width: 45px;
+    border: 1px solid #c6c6c6;
+    border-radius: 12px;
+    top: 50%;
+}
+.left-it{
+    left: -20px !important;
+}
+
+.right-it{
+    right: -20px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* media */
 @media only screen and (min-width: 576px) {}

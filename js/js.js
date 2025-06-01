@@ -299,3 +299,11 @@ const swiperswiper_shop_ex = new Swiper('.swiper_shop_ex', {
 
 
 
+const testemonial_swiper = new Swiper('.testemonial_swiper', {
+    slidesPerView: 3,
+    spaceBetween: 22,
+    navigation: {
+        nextEl: '.swiper-button-next-custom',
+        prevEl: '.swiper-button-prev-custom',
+      },
+})
