@@ -1504,6 +1504,17 @@ textarea:focus {
     box-shadow: 0 0 15px #7c7c7c;
 }
 
+.phone-icon-bg{
+    width: 45px;
+    height: 45px;
+    background:  #00b771;
+}
+.call-number{
+    background: #00b771;
+    padding: 12px 35px;
+}
+
+
 /* media */
 @media only screen and (min-width: 576px) {}
 
