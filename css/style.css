@@ -1513,6 +1513,18 @@ textarea:focus {
     background: #00b771;
     padding: 12px 35px;
 }
+.about-us-img-1{
+    width: 230px;
+    right: 0;
+    border-radius: 40px;
+    transform: rotate(16deg);
+}
+.about-us-img-2{
+    width: 230px;
+    left: 0;
+    border-radius: 40px;
+    transform: rotate(336deg);
+}
 
 
 /* media */
