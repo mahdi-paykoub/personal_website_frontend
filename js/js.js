@@ -307,3 +307,12 @@ const testemonial_swiper = new Swiper('.testemonial_swiper', {
         prevEl: '.swiper-button-prev-custom',
       },
 })
+
+const steps_swiper = new Swiper('.steps_swiper', {
+    slidesPerView: 4,
+    spaceBetween: 40,
+    navigation: {
+        nextEl: '.swiper-button-next-custom',
+        prevEl: '.swiper-button-prev-custom',
+      },
+})
