@@ -1518,13 +1518,31 @@ textarea:focus {
     right: 0;
     border-radius: 40px;
     transform: rotate(16deg);
+    box-shadow: 15px 16px 10px #e1e1e1;
 }
 .about-us-img-2{
     width: 230px;
     left: 0;
     border-radius: 40px;
     transform: rotate(336deg);
+    box-shadow: 15px 16px 10px #e1e1e1;
 }
+.our-story-btn{
+    border: 0;
+    padding: 11px 41px;
+    color: white;
+    background: #3b83f6;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+
+.count-about-us{
+    font-size: 80px;
+    color: #d2d2d2;
+}
+
+
 
 
 /* media */

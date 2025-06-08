@@ -224,3 +224,12 @@ const steps_swiper = new Swiper('.steps_swiper', {
         prevEl: '.swiper-button-prev-custom',
       },
 })
+
+const why_us_swiper = new Swiper('.why_us_swiper', {
+    slidesPerView: 4,
+    spaceBetween: 40,
+    navigation: {
+        nextEl: '.swiper-button-next-custom',
+        prevEl: '.swiper-button-prev-custom',
+      },
+})
